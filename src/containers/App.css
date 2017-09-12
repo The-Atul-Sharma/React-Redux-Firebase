@@ -1,0 +1,36 @@
+.app {
+  background: grey;
+  margin: auto;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 60%;
+}
+
+.fixed-header {
+  position: fixed;
+  width: 60%;
+  z-index: 2;
+}
+
+.header {
+  background-color: #242625;
+  padding: 15px 30px;
+}
+
+.header h2 {
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 500px) {
+  .app {
+    width: 100%;
+    border-radius: 0;
+    margin: 0;
+  }
+  .fixed-header {
+    width: 100%;
+    z-index: 2;
+  }
+}

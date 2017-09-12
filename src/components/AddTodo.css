@@ -1,0 +1,37 @@
+.form {
+  padding: 30px;
+  background: white;
+}
+
+.form input[type="text"] {
+  border: 1px solid #F72923;
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px;
+  outline: none;
+  width: 100%;
+  transition: border .3s ease;
+}
+
+.form input[type="text"]:focus {
+  border: 1px solid #F72923;
+}
+
+.form button {
+  background-color: #FA3D37;
+  border: 0;
+  border-radius: 60%;
+  cursor: pointer;
+  color: white;
+  padding: 5px 15px;
+  outline: none;
+  float: right;
+  font-size: 20px;
+  box-shadow: 0 10px 6px -6px #777;
+  transition: background .4s ease;
+}
+
+.form button:hover {
+  background: #F72923;
+}
+
